@@ -24,7 +24,7 @@ from xml.sax.saxutils import escape
 
 # L'indirizzo base del tuo GitHub Pages, SENZA slash finale.
 # Formato: https://<tuo-username>.github.io/<nome-repo>
-SITE_BASE = "https://TUOUSERNAME.github.io/hochsee-podcast"
+SITE_BASE = "https://gri92.github.io/hochsee-podcast"
 
 TITLE       = "Hochseeausweis — Lernpodcast"
 AUTHOR      = "Giona Rinaldi"

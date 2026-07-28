@@ -1,0 +1,45 @@
+name: Aggiorna feed podcast
+
+# Quando girare:
+#  - a ogni push che tocca la cartella audio/ o lo script stesso
+#  - oppure manualmente dal tab "Actions" (pulsante "Run workflow")
+on:
+  push:
+    paths:
+      - 'audio/**'
+      - 'make_feed.py'
+      - '.github/workflows/feed.yml'
+  workflow_dispatch:
+
+# Serve per permettere al workflow di committare feed.xml nel repo
+permissions:
+  contents: write
+
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Prepara Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Genera feed.xml
+        run: python make_feed.py
+
+      - name: Committa il feed se e' cambiato
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain feed.xml)" ]]; then
+            git add feed.xml
+            git commit -m "Rigenera feed.xml [skip ci]"
+            git push
+            echo "Feed aggiornato e committato."
+          else
+            echo "Nessuna modifica al feed."
+          fi

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hochseeausweis — Lernpodcast</title>
+    <link>https://gri92.github.io/hochsee-podcast</link>
+    <language>de-CH</language>
+    <description>Vertiefte Einfuehrung in die zehn Kapitel der SYA-Ausbildung fuer den Schweizerischen Hochseeausweis. Persoenlicher Lernpodcast.</description>
+    <itunes:author>Giona Rinaldi</itunes:author>
+    <itunes:summary>Vertiefte Einfuehrung in die zehn Kapitel der SYA-Ausbildung fuer den Schweizerischen Hochseeausweis. Persoenlicher Lernpodcast.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:category text="Education"/>
+    <lastBuildDate>Tue, 28 Jul 2026 14:25:55 +0000</lastBuildDate>
+    <itunes:image href="https://gri92.github.io/hochsee-podcast/cover.png"/>
+    <image>
+      <url>https://gri92.github.io/hochsee-podcast/cover.png</url>
+      <title>Hochseeausweis — Lernpodcast</title>
+      <link>https://gri92.github.io/hochsee-podcast</link>
+    </image>
+    <item>
+      <title>Kapitel 0 — Einführung</title>
+      <itunes:episode>1</itunes:episode>
+      <guid isPermaLink="false">https://gri92.github.io/hochsee-podcast/audio/00_Einführung.mp3</guid>
+      <pubDate>Tue, 28 Jul 2026 08:00:00 +0000</pubDate>
+      <enclosure url="https://gri92.github.io/hochsee-podcast/audio/00_Einführung.mp3" length="21304771" type="audio/mpeg"/>
+      <description>Kapitel 0 — Einführung</description>
+      <itunes:author>Giona Rinaldi</itunes:author>
+    </item>
+    <item>
+      <title>Kapitel 1 — Nautische Ausbildung</title>
+      <itunes:episode>1</itunes:episode>
+      <guid isPermaLink="false">https://gri92.github.io/hochsee-podcast/audio/01_Nautische_Ausbildung.mp3</guid>
+      <pubDate>Wed, 29 Jul 2026 08:00:00 +0000</pubDate>
+      <enclosure url="https://gri92.github.io/hochsee-podcast/audio/01_Nautische_Ausbildung.mp3" length="19783818" type="audio/mpeg"/>
+      <description>Kapitel 1 — Nautische Ausbildung</description>
+      <itunes:author>Giona Rinaldi</itunes:author>
+    </item>
+  </channel>
+</rss>

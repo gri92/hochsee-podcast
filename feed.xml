@@ -12,7 +12,7 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <itunes:category text="Education"/>
-    <lastBuildDate>Sun, 02 Aug 2026 14:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 14:21:24 +0000</lastBuildDate>
     <itunes:image href="https://gri92.github.io/hochsee-podcast/cover.png"/>
     <image>
       <url>https://gri92.github.io/hochsee-podcast/cover.png</url>
@@ -53,6 +53,15 @@
       <pubDate>Fri, 31 Jul 2026 08:00:00 +0000</pubDate>
       <enclosure url="https://gri92.github.io/hochsee-podcast/audio/03_Schiffskunde.mp3" length="17552071" type="audio/mpeg"/>
       <description>Kapitel 3 — Schiffskunde</description>
+      <itunes:author>Giona Rinaldi</itunes:author>
+    </item>
+    <item>
+      <title>Kapitel 4 — Navigationshilfen</title>
+      <itunes:episode>4</itunes:episode>
+      <guid isPermaLink="false">https://gri92.github.io/hochsee-podcast/audio/04_Navigationshilfen.mp3</guid>
+      <pubDate>Sat, 01 Aug 2026 08:00:00 +0000</pubDate>
+      <enclosure url="https://gri92.github.io/hochsee-podcast/audio/04_Navigationshilfen.mp3" length="18689656" type="audio/mpeg"/>
+      <description>Kapitel 4 — Navigationshilfen</description>
       <itunes:author>Giona Rinaldi</itunes:author>
     </item>
   </channel>

@@ -12,7 +12,7 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <itunes:category text="Education"/>
-    <lastBuildDate>Fri, 14 Aug 2026 14:20:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 14:36:02 +0000</lastBuildDate>
     <itunes:image href="https://gri92.github.io/hochsee-podcast/cover.png"/>
     <image>
       <url>https://gri92.github.io/hochsee-podcast/cover.png</url>
@@ -80,6 +80,15 @@
       <pubDate>Mon, 03 Aug 2026 08:00:00 +0000</pubDate>
       <enclosure url="https://gri92.github.io/hochsee-podcast/audio/06_Elektronische_Navigation.mp3" length="11912768" type="audio/mpeg"/>
       <description>Kapitel 6 — Elektronische Navigation</description>
+      <itunes:author>Giona Rinaldi</itunes:author>
+    </item>
+    <item>
+      <title>Kapitel 7 — Gezeitenkunde</title>
+      <itunes:episode>7</itunes:episode>
+      <guid isPermaLink="false">https://gri92.github.io/hochsee-podcast/audio/07_Gezeitenkunde.mp3</guid>
+      <pubDate>Tue, 04 Aug 2026 08:00:00 +0000</pubDate>
+      <enclosure url="https://gri92.github.io/hochsee-podcast/audio/07_Gezeitenkunde.mp3" length="14325218" type="audio/mpeg"/>
+      <description>Kapitel 7 — Gezeitenkunde</description>
       <itunes:author>Giona Rinaldi</itunes:author>
     </item>
   </channel>

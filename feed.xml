@@ -12,7 +12,7 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <itunes:category text="Education"/>
-    <lastBuildDate>Fri, 14 Aug 2026 14:36:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 07:16:51 +0000</lastBuildDate>
     <itunes:image href="https://gri92.github.io/hochsee-podcast/cover.png"/>
     <image>
       <url>https://gri92.github.io/hochsee-podcast/cover.png</url>
@@ -89,6 +89,15 @@
       <pubDate>Tue, 04 Aug 2026 08:00:00 +0000</pubDate>
       <enclosure url="https://gri92.github.io/hochsee-podcast/audio/07_Gezeitenkunde.mp3" length="14325218" type="audio/mpeg"/>
       <description>Kapitel 7 — Gezeitenkunde</description>
+      <itunes:author>Giona Rinaldi</itunes:author>
+    </item>
+    <item>
+      <title>Kapitel 8 — Meteorologie</title>
+      <itunes:episode>8</itunes:episode>
+      <guid isPermaLink="false">https://gri92.github.io/hochsee-podcast/audio/08_Meteorologie.mp3</guid>
+      <pubDate>Wed, 05 Aug 2026 08:00:00 +0000</pubDate>
+      <enclosure url="https://gri92.github.io/hochsee-podcast/audio/08_Meteorologie.mp3" length="20936913" type="audio/mpeg"/>
+      <description>Kapitel 8 — Meteorologie</description>
       <itunes:author>Giona Rinaldi</itunes:author>
     </item>
   </channel>
